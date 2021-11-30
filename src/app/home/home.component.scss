@@ -1,0 +1,23 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: grey;
+    height: 500px;
+}
+
+.home-title h2 {
+    color: white;
+}
+  
+.home-description p {
+     color: white;
+  }
+
+.home-content {
+    height: 400px;
+    background-color: black;
+}
+
