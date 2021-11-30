@@ -1,3 +1,14 @@
+<mat-toolbar>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    </button>
+   
+    <span class="example-spacer">
+
+    </span>
+    <button mat-button [routerLink]="['/home']">Acceuil</button>
+    <button mat-button [routerLink]="['/articleList']">Liste des articles</button>
+   
+  </mat-toolbar>
 <div class="home-container">
     <div class="home-header">
         <div class="home-title">
@@ -6,6 +17,8 @@
         <div class="home-description">
             <p>Test technique pour les développeur Angular, React ou Vue.js</p>
         </div>
+        <button mat-button >Voir liste des articles</button>
       </div>
+    
 <div>
  
