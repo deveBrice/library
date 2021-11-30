@@ -9,18 +9,20 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
 import { Routes, RouterModule } from '@angular/router';
+import { ArticlesListComponent } from './articles-list/articles-list.component';
 
 const Router: Routes = [
   {path: 'home', component: HomeComponent},
   {path: '', redirectTo: 'home', pathMatch: 'full'},
-  {path: 'articleList', component: HomeComponent},
+  {path: 'articleList', component: ArticlesListComponent},
   {path: '**', redirectTo: 'home', pathMatch: 'full'},
 ]
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    ArticlesListComponent
   ],
   imports: [
     BrowserModule,
