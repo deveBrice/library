@@ -1,0 +1,23 @@
+.articles {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.articles-container {
+    height: 100%;
+    background-color: grey;
+    display: flex;
+    
+}
+
+.group-articles {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
